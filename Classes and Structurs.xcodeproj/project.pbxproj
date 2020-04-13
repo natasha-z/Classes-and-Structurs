@@ -13,6 +13,7 @@
 		7E463A90244358FD00F3CAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E463A8E244358FD00F3CAA6 /* Main.storyboard */; };
 		7E463A92244358FF00F3CAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E463A91244358FF00F3CAA6 /* Assets.xcassets */; };
 		7E463A95244358FF00F3CAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E463A93244358FF00F3CAA6 /* LaunchScreen.storyboard */; };
+		7E463A9D24435AA500F3CAA6 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E463A9C24435AA500F3CAA6 /* Students.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E463A91244358FF00F3CAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E463A94244358FF00F3CAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E463A96244358FF00F3CAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E463A9C24435AA500F3CAA6 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E463A88244358FD00F3CAA6 /* AppDelegate.swift */,
 				7E463A8A244358FD00F3CAA6 /* SceneDelegate.swift */,
 				7E463A8C244358FD00F3CAA6 /* ViewController.swift */,
+				7E463A9C24435AA500F3CAA6 /* Students.swift */,
 				7E463A8E244358FD00F3CAA6 /* Main.storyboard */,
 				7E463A91244358FF00F3CAA6 /* Assets.xcassets */,
 				7E463A93244358FF00F3CAA6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				7E463A8D244358FD00F3CAA6 /* ViewController.swift in Sources */,
 				7E463A89244358FD00F3CAA6 /* AppDelegate.swift in Sources */,
 				7E463A8B244358FD00F3CAA6 /* SceneDelegate.swift in Sources */,
+				7E463A9D24435AA500F3CAA6 /* Students.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

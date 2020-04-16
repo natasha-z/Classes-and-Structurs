@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Students: NSObject {
+class Person: NSObject {
     var name: String
     var surname: String
     var yearOfBirth: Int
@@ -17,11 +17,6 @@ class Students: NSObject {
         self.name = name
         self.surname = surname
         self.yearOfBirth = yearOfBirth
-    }
-    override var description: String {
-    get {
-        return "\(self.name) \(self.surname) (\(self.yearOfBirth))"
-    }
     }
 
 }

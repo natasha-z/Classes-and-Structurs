@@ -14,31 +14,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
       // arrayOfStudents =
-        (arrayOfStudent as NSArray).sortedArray(using: yearDescriptor)
         
-    
+     
+        let sortedArray = arrayOfPerson.sorted { (Person1, Person2) -> Bool in
+            return Person1.yearOfBirth < Person2.yearOfBirth
+        }
+        
+        print(sortedArray)
       
     }
     
-    let arrayOfStudent = [
-        Students(name: "Ira", surname: "Stasiuk", yearOfBirth: 1993),
-        Students(name: "Natasha", surname: "Atamaniuk", yearOfBirth: 1993),
-        Students(name: "Lena", surname: "Bykhovska", yearOfBirth: 1994),
-        Students(name: "Zorina", surname: "Popchuk", yearOfBirth: 1994),
-        Students(name: "Zhana", surname: "Mykuliak", yearOfBirth: 1994),
-        Students(name: "Dasha", surname: "Osnach", yearOfBirth: 1993)
+    let arrayOfPerson = [
+        Person(name: "Ira", surname: "Stasiuk", yearOfBirth: 1993),
+        Person(name: "Natasha", surname: "Atamaniuk", yearOfBirth: 1993),
+        Person(name: "Lena", surname: "Bykhovska", yearOfBirth: 1994),
+        Person(name: "Zorina", surname: "Popchuk", yearOfBirth: 1994),
+        Person(name: "Zhana", surname: "Mykuliak", yearOfBirth: 1994),
+        Person(name: "Dasha", surname: "Osnach", yearOfBirth: 1993)
     ]
-       
-    let yearDescriptor = NSSortDescriptor(key: "yearOfBirth", ascending: true)
- 
-
-
-    
-    
-  
-    
-    
-
 
 }
 
